@@ -1,0 +1,28 @@
+.keys {
+  gap: 5px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.keys button:first-child {
+  color: #ffffff;
+  grid-column-end: 3;
+  grid-column-start: 1;
+  background-color: #499ee2;
+  border: none;
+}
+
+.keys button:nth-child(15) {
+  color: #ffffff;
+  grid-row: 4 / 6;
+  grid-column: 4 / 4;
+  background-color: rgb(65, 217, 65);
+  border: none;
+}
+
+.keys button:nth-child(16) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+

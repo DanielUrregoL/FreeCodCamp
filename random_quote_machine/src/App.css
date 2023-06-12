@@ -1,0 +1,23 @@
+html, body {
+	height: 100%;
+}
+
+body {
+
+    transition: 0.7s ease-in-out;
+  }
+
+body.loaded {
+
+    transition: 0.7s ease-in-out;
+  }
+  
+  .fade{
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+  }
+
+  .fade-in{
+    opacity: 1;
+    transition: 0.7s ease-in-out;
+  }
